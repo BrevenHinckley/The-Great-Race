@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Great Race</title>
+    <!--
+      The Great Race page
+      Filename: race.html
+
+      Author:   Breven G. Hinckley
+      Date:     10-10-17
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 onclick="startRace();" id="starts">START</h1>
+    <h1 onclick="reset();" id="unstarts">RESET</h1>
+    <h1 class="title">SKY RACERS</h1>
+    <br>
+    <div id="racerKirby"><img src="images/kirbyracing.png" alt="Kirby Sky Racing"></div>
+    <br>
+    <div id="racerMario"><img src="images/marioracing.png" alt="Mario Sky Racing"></div>
+    <img src="images/kirbyground.png" alt="Kirby Waving" id="groundedK" onclick="startRace();">
+    <img src="images/marioground.png" alt="Mario Standing" id="groundedM" onclick="startRace();">
+    <img src="images/flagpole.png" alt="Super Mario Themed Flagpole" id="startFlag" onclick="startRace();">
+    <img src="images/flagpole.png" alt="Super Mario Themed Flagpole" id="raceFlag">
+    <img src="images/redlight.png" alt="Traffic light that is red" id="redlight" onclick="startRace();">
+    <img src="images/redlight.png" alt="Traffic light that is red" id="redlightSecond">
+    <img src="images/greenlight.png" alt="Traffic light that is green" id="greenlight">
+    <img src="images/mariowin.png" alt="Mario Wins!" id="marioWin" onclick="goAgain();">
+    <img src="images/kirbywin.png" alt="Kirby Wins!" id="kirbyWin" onclick="goAgain();">
+    <script src="js.js"></script>
+  </body>
+</html>

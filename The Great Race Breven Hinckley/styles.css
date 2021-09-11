@@ -1,0 +1,99 @@
+/*
+  The Great Race Style Page
+  Filename: styles.css
+  Author:   Breven G. Hinckley
+  Date:     10-10-17
+*/
+
+body {
+  background: lightskyblue;
+  background: url("images/background.png");
+}
+.title {
+  position: fixed;
+  top: 0;
+  left: 760px;
+  background: red;
+  color: white;
+  text-shadow: 1px 1px black;
+  display: inline-block;
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 0.22em;
+  font-size: 3.1em;
+}
+div {
+  position: relative;
+  top: 150px;
+  margin-bottom: 10em;
+  display: none;
+}
+#groundedK {
+  position: fixed;
+  top: 850px;
+  left: 1100px;
+}
+#groundedM {
+  position: fixed;
+  top: 832px;
+  left: 1000px;
+}
+#startFlag {
+  position: fixed;
+  top: 450px;
+  left: 1340px;
+}
+#raceFlag {
+  position: fixed;
+  top: 450px;
+  left: 1340px;
+  display: none;
+}
+#redlight {
+  position: fixed;
+  top: 680px;
+  left: 1438px;
+  border: 4px solid gray;
+  background: lightgray;
+}
+#redlightSecond {
+  position: fixed;
+  top: 680px;
+  left: 1438px;
+  border: 4px solid gray;
+  background: lightgray;
+  display: none;
+}
+#greenlight {
+  position: fixed;
+  top: 680px;
+  left: 1438px;
+  border: 4px solid gray;
+  background: lightgray;
+  display: none;
+}
+#marioWin {
+  border: 2px dashed black;
+  display: none;
+  position: fixed;
+  top: 122px;
+  left: 760px;
+}
+#kirbyWin {
+  background: whitesmoke;
+  border: 2px dashed black;
+  display: none;
+  position: fixed;
+  top: 122px;
+  left: 765px;
+}
+#starts, #unstarts {
+  background: red;
+  color: white;
+  text-shadow: 1px 1px black;
+  margin: 1em;
+  display: inline-block;
+  border: 4px solid white;
+  border-radius: 8px;
+  padding: 0.2em;
+}
